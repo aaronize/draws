@@ -1,1 +1,115 @@
-<mxfile host="app.diagrams.net" modified="2020-12-06T03:54:44.413Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" version="13.10.9" etag="K0ubaB-DEp0Gf-zpdJEF" type="github"><diagram id="8lTQhLzvWMOwh6s_N7G2">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-12-06T05:31:30.186Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="4_dFTdChbzX2cSw6F00C" version="13.10.9" type="github">
+  <diagram id="8lTQhLzvWMOwh6s_N7G2" name="Page-1">
+    <mxGraphModel dx="1422" dy="1945" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="eayz5AD7TdFJVJEcs0gB-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eayz5AD7TdFJVJEcs0gB-4" target="eayz5AD7TdFJVJEcs0gB-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eayz5AD7TdFJVJEcs0gB-4" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;日志数据&lt;/font&gt;&lt;br&gt;&lt;/b&gt;&lt;span&gt;浏览日志、埋点日志&lt;/span&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="124" y="170" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="eayz5AD7TdFJVJEcs0gB-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="eayz5AD7TdFJVJEcs0gB-5" target="eayz5AD7TdFJVJEcs0gB-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eayz5AD7TdFJVJEcs0gB-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eayz5AD7TdFJVJEcs0gB-5" target="eayz5AD7TdFJVJEcs0gB-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eayz5AD7TdFJVJEcs0gB-5" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;消息队列&lt;br&gt;&lt;/font&gt;&lt;/b&gt;。。。" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="761" y="176.25" width="140" height="417.5" as="geometry" />
+        </mxCell>
+        <mxCell id="eayz5AD7TdFJVJEcs0gB-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eayz5AD7TdFJVJEcs0gB-6" target="eayz5AD7TdFJVJEcs0gB-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="730" y="220" />
+              <mxPoint x="730" y="385" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eayz5AD7TdFJVJEcs0gB-6" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;Flume&lt;/font&gt;&lt;/b&gt;&lt;br&gt;采集nginx的日志数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="172.5" width="140" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="eayz5AD7TdFJVJEcs0gB-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eayz5AD7TdFJVJEcs0gB-8" target="eayz5AD7TdFJVJEcs0gB-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="730" y="550" />
+              <mxPoint x="730" y="385" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eayz5AD7TdFJVJEcs0gB-8" value="用户产生的&lt;br&gt;购物车数据、评论等" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="510" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eayz5AD7TdFJVJEcs0gB-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eayz5AD7TdFJVJEcs0gB-9" target="eayz5AD7TdFJVJEcs0gB-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eayz5AD7TdFJVJEcs0gB-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="eayz5AD7TdFJVJEcs0gB-9" target="eayz5AD7TdFJVJEcs0gB-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="184" y="630" />
+              <mxPoint x="1256" y="630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eayz5AD7TdFJVJEcs0gB-9" value="&lt;b style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;业务数据库&lt;/font&gt;&lt;br&gt;&lt;/b&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;业务数据，包括商品、订单、订单明细、组织机构、商品分类、店铺数据等。&lt;/span&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="124" y="320" width="120" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="eayz5AD7TdFJVJEcs0gB-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eayz5AD7TdFJVJEcs0gB-10" target="eayz5AD7TdFJVJEcs0gB-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eayz5AD7TdFJVJEcs0gB-10" value="&lt;b&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;Canal服务端&lt;/font&gt;&lt;/b&gt;&lt;br&gt;通过binlog从MySQL同步数据" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="340" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="eayz5AD7TdFJVJEcs0gB-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eayz5AD7TdFJVJEcs0gB-11" target="eayz5AD7TdFJVJEcs0gB-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eayz5AD7TdFJVJEcs0gB-11" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;Canal客户端&lt;/font&gt;&lt;/b&gt;&lt;br&gt;程序实现，与服务端建立&lt;br&gt;连接，获取解析后的&lt;br&gt;binlog日志，经过protobuf&lt;br&gt;序列化后写入消息队列" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="511" y="337.5" width="190" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="eayz5AD7TdFJVJEcs0gB-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eayz5AD7TdFJVJEcs0gB-12" target="eayz5AD7TdFJVJEcs0gB-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eayz5AD7TdFJVJEcs0gB-12" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="254" y="510" width="50" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eayz5AD7TdFJVJEcs0gB-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="eayz5AD7TdFJVJEcs0gB-20" target="eayz5AD7TdFJVJEcs0gB-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eayz5AD7TdFJVJEcs0gB-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eayz5AD7TdFJVJEcs0gB-20" target="eayz5AD7TdFJVJEcs0gB-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eayz5AD7TdFJVJEcs0gB-20" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;Flink&lt;/font&gt;&lt;/b&gt;&lt;br&gt;。。。" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="990" y="176.25" width="140" height="417.5" as="geometry" />
+        </mxCell>
+        <mxCell id="eayz5AD7TdFJVJEcs0gB-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eayz5AD7TdFJVJEcs0gB-21" target="eayz5AD7TdFJVJEcs0gB-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eayz5AD7TdFJVJEcs0gB-21" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;Redis&lt;/font&gt;&lt;/b&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="1211" y="340" width="89" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="eayz5AD7TdFJVJEcs0gB-24" value="将维度数据（商品分类、店铺数据、组织机构等数据）同步到Redis，以便于Flink计算程序高效的读取维度数据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="470" y="620" width="600" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="eayz5AD7TdFJVJEcs0gB-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eayz5AD7TdFJVJEcs0gB-28" target="eayz5AD7TdFJVJEcs0gB-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eayz5AD7TdFJVJEcs0gB-28" value="&lt;font&gt;&lt;b style=&quot;font-size: 14px&quot;&gt;HBase&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;订单数据和订单明细&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="1015.5" y="30" width="89" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="eayz5AD7TdFJVJEcs0gB-30" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;Phoneix&lt;/font&gt;&lt;/b&gt;&lt;br&gt;支持SQL查询HBase&lt;br&gt;支持二级索引" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="985" y="-90" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eayz5AD7TdFJVJEcs0gB-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eayz5AD7TdFJVJEcs0gB-32" target="eayz5AD7TdFJVJEcs0gB-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eayz5AD7TdFJVJEcs0gB-32" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;Druid（OLAP+存储）&lt;/font&gt;&lt;/b&gt;&lt;br&gt;相当于Kylin+Hbase组合，&lt;br&gt;将实时ETL后的数据导入Druid&lt;br&gt;进行持久化的存储。" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="743.25" y="10" width="175.5" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="eayz5AD7TdFJVJEcs0gB-34" value="Druid支持JDBC的&lt;br&gt;连接方式" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="755.5" y="-90" width="151" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
