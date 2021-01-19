@@ -1,1 +1,31 @@
-<mxfile host="app.diagrams.net" modified="2020-12-22T02:09:57.622Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" version="14.1.1" etag="KqlVQcNBpJJ4HiSCacOq" type="github"><diagram id="pYu8jcamV57du8BtnSqR">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-01-19T02:37:00.042Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="McSk-vyIPuO0Mz2DMR6O" version="14.2.4" type="github">
+  <diagram id="pYu8jcamV57du8BtnSqR" name="Page-1">
+    <mxGraphModel dx="1029" dy="654" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="aw2TL_ALbKg9WWXY_OlB-3" value="基&amp;nbsp;&lt;br&gt;础&amp;nbsp;&lt;br&gt;设&amp;nbsp;&lt;br&gt;施&amp;nbsp;&lt;br&gt;层&amp;nbsp;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=right;" vertex="1" parent="1">
+          <mxGeometry x="290" y="780" width="290" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="aw2TL_ALbKg9WWXY_OlB-2" value="接口层" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="760" width="280" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="aw2TL_ALbKg9WWXY_OlB-4" value="业务层&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%E6%8E%A5%E5%8F%A3%E5%B1%82%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22200%22%20y%3D%22400%22%20width%3D%22280%22%20height%3D%2250%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="830" width="280" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="aw2TL_ALbKg9WWXY_OlB-5" value="上下文层" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="900" width="280" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="aw2TL_ALbKg9WWXY_OlB-6" value="&amp;nbsp;领域层&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="240" y="970" width="280" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="aw2TL_ALbKg9WWXY_OlB-7" value="User" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aw2TL_ALbKg9WWXY_OlB-8" value="Article" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
